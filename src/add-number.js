@@ -4,11 +4,7 @@ import { readNumber, display, append } from '../lib/dom-io.js';
 
 import { listItems } from './utils/list-items.js';
 
-
-
 const addNumber = () => {
-
-
   // read the user's number
   const inputNum = readNumber('the-num');
 

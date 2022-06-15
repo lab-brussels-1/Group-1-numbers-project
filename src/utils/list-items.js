@@ -16,7 +16,7 @@
 
 let array = [1, 2];
 export const listItems = (arr = []) => {
-    let stringArray = arr;
-    let finalString  = stringArray.join('\n');
-    return finalString;
+  let stringArray = arr;
+  let finalString = stringArray.join('\n');
+  return finalString;
 };
