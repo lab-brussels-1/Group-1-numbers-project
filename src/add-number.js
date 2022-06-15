@@ -1,6 +1,6 @@
 import { numbers } from '../numbers.js';
 
-import { readNumber, display, append } from '../lib/dom-io.js';
+import { readNumber, display } from '../lib/dom-io.js';
 
 import { listItems } from './utils/list-items.js';
 
