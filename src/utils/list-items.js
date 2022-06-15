@@ -13,9 +13,4 @@
  * listItems([2, 5, 0, -3]); //--> "* 2\n* 5\n* 0\n* -3\n"
  *
  */
-
-export const listItems = (arr = []) => {
-    let stringArray = arr;
-    let finalString  = stringArray.join('\n');
-    return finalString;
-};
+export const listItems = (arr = []) => {};
